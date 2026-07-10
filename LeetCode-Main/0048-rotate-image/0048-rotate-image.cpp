@@ -7,7 +7,7 @@ public:
         for (int i = level; i < size-level-1; i++) {
             // int index1 = matrix[level][i]; //00
             // int index2 = matrix[size-1-i][level]; //30
-            // int index3 = matrix[size-1-level][size-1-level-i]; //33
+            // int index3 = matrix[size-1-level][size-1-i]; //33
             // int index4 = matrix[level+i][size-1-level]; //03
             swap(matrix[level][i],matrix[size-1-i][level]);
             swap(matrix[size-1-i][level],matrix[size-1-level][size-1-i]);
